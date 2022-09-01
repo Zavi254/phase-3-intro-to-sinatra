@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    json (2.6.2)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     rack (2.2.3)
@@ -18,10 +19,12 @@ GEM
 
 PLATFORMS
   universal-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
+  json (~> 2.6, >= 2.6.2)
   rack-test (~> 1.1)
   sinatra (~> 2.1)
 
 BUNDLED WITH
-   2.2.23
+   2.3.21
